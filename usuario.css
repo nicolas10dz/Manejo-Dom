@@ -1,14 +1,9 @@
 *{
-    padding: 0%;
+  
     margin: 0%;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
-
-
-
-
-
 .fondo{
     background-color: rgb(8, 8, 8);
     display: flex;
@@ -18,7 +13,9 @@
 
 }
 .imagen{
+    min-height: 100vh;/*altura completa de la ventana */
     background-image: url('image_84fe92c4 (1).png');
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -26,25 +23,23 @@
     margin: 0%;
     filter: brightness(0.3); 
     flex-wrap:initial;
+    width: 100%;
 }
 .caja{
-    width: 350px;
-    height: 600px;
+    width: 300px;
+    height: 450px;
     background-color: #03030381;
-    margin: auto;
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: 0px 0px 15px #f0d803d3;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
     position: absolute; 
-    
-
 }
 .boton{
     width: 200px;
-    height: 50px;
+    height: 30px;
     display: flex;
     justify-content: center;    
     align-items: center;
@@ -54,42 +49,42 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 16px;
+    padding: 12px;
 }
 
 .boton1{
     background:#17a74a;
     border: none;
-    padding: 12px;
-    border-radius: 8px;
+    padding: 8px;
+    border-radius: 5px;
     color: white;
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
-    margin: 20px;
-   box-shadow: 0px 0px 5px #ca196cd3;
+    margin: 8px;
+   
 }
     
 .texto{
     color: white;
     font-size: 18px;
     
+    
    
 }.texto1{
     color: white;
     font-size: 13px;
-    margin-top: 20px;
+    margin-top: 14px;
     
 }
 .green{
-    width: 120px;
-
-    margin-bottom: 10px;
-
+    width: 94px;
+    margin-bottom: 5px;
     filter: brightness(0) invert(1)
-    drop-shadow(0 0 5px #1db954)
-    drop-shadow(0 0 10px#1db954) 
-    drop-shadow(0 0 20px #1db954 );
+    drop-shadow(0 0 5px #759716)
+    drop-shadow(0 0 10px #759716) 
+    drop-shadow(0 0 20px #759716 );
 }
 
 /*creado*/
