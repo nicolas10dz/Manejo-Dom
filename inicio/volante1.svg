@@ -1,0 +1,32 @@
+<svg width="120" height="120" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .wheel {
+      fill: none;
+      stroke: #2c2c2c;
+      stroke-width: 6;
+      animation: spin 4s linear infinite;
+      transform-origin: 50% 50%;
+    }
+
+    .inner {
+      stroke: #2c2c2c;
+      stroke-width: 4;
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+  </style>
+
+  <!-- círculo exterior -->
+  <circle cx="50" cy="50" r="35" class="wheel"/>
+
+  <!-- centro -->
+  <circle cx="50" cy="50" r="8" fill="#2c2c2c"/>
+
+  <!-- radios -->
+  <line x1="50" y1="50" x2="50" y2="20" class="inner"/>
+  <line x1="50" y1="50" x2="25" y2="65" class="inner"/>
+  <line x1="50" y1="50" x2="75" y2="65" class="inner"/>
+</svg>

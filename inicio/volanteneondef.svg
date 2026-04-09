@@ -1,0 +1,53 @@
+<svg width="120" height="120" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <!-- degradado verde -->
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ee7b7"/>
+      <stop offset="100%" stop-color="#16a34a"/>
+    </linearGradient>
+
+    <!-- glow suave -->
+    <filter id="softGlow">
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#22c55e" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- círculo exterior -->
+  <circle cx="50" cy="50" r="35"
+    fill="none"
+    stroke="url(#greenGradient)"
+    stroke-width="5"
+    filter="url(#softGlow)">
+
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 50 50"
+      to="360 50 50"
+      dur="4s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <!-- centro -->
+  <circle cx="50" cy="50" r="7"
+    fill="url(#greenGradient)"
+    filter="url(#softGlow)"/>
+
+  <!-- radios -->
+  <line x1="50" y1="50" x2="50" y2="22"
+    stroke="url(#greenGradient)"
+    stroke-width="3"
+    filter="url(#softGlow)"/>
+
+  <line x1="50" y1="50" x2="27" y2="65"
+    stroke="url(#greenGradient)"
+    stroke-width="3"
+    filter="url(#softGlow)"/>
+
+  <line x1="50" y1="50" x2="73" y2="65"
+    stroke="url(#greenGradient)"
+    stroke-width="3"
+    filter="url(#softGlow)"/>
+
+</svg>
