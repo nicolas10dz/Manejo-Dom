@@ -14,12 +14,17 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+a{
+  text-decoration: none;
+  color: var(--green);
+}
+
 
 .fondo {
   position: relative;
   width: 100%;
   height: 100vh;
-  background: url('/Tourism.jpeg') center/cover no-repeat;
+  background: url(/UnionConductores/RegistrarPasajeroGm/image_84fe92c4.png) center/cover no-repeat;
 }
 
 .fondo-color {

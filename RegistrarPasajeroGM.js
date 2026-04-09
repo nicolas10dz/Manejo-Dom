@@ -33,5 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
         alert("Registro exitoso 🚀");
 
         formulario.reset();
+        window.location.href = "/UnionConductores/usuario/index.html";
+        
     });
 });
