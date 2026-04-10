@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inicio</title>
+    <link rel="stylesheet" href="inicio.css">
+</head>
+<body>
+
+<div class="containner">
+
+    <div class="barraInicio">
+
+        <div class="logo">
+            <img src="Logo blanco con flecha y hoja.png" alt="logoGreeMove">
+        </div>
+
+        <div class="letrasLogo">
+            <label>
+                Green <span>Move</span>
+            </label>
+        </div>
+
+        <div class="menu">
+            <a href="/inicio/index.html">Inicio</a>
+            <a href="../RegisterPasajero/RegisterPasajero/RegisterPasajero.html">Registrarse</a>
+        </div>
+
+    </div>
+
+    <!-- 🔥 BUSCADOR IA -->
+    <div class="buscadorIa">
+        <img class="GreenBoot" src="Robot verde y logo futurista.png" alt="">
+
+        <input type="text" id="pregunta" placeholder="Consulta con GreenBoot" onkeypress="if(event.key==='Enter') preguntar()">
+    </div>
+
+    <!-- 🔥 RESPUESTAS IA -->
+    <div id="respuesta" class="chat"></div>
+
+    <!-- CARDS -->
+    <div class="cards">
+        <div class="card">
+            <img src="vehiculo.jpg" alt="carro">
+            <div class="overlay">
+                <h2>Servicio de transporte urbano</h2>
+                <p>Viaja fácilmente por la ciudad</p>
+                <button>Solicitar viaje</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="hoteles.jpg" alt="hotel">
+            <div class="overlay">
+                <h2>Búsqueda de hoteles</h2>
+                <p>Encuentra hoteles cercanos</p>
+                <button class="outline">Buscar hoteles</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="turismo.jpg" alt="lugares">
+            <div class="overlay">
+                <h2>Lugares turísticos</h2>
+                <p>Descubre atracciones y puntos de interés</p>
+                <button class="outline">Explorar lugares</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- 🔥 TU JS EXTERNO -->
+<script src="ia.js"></script>
+
+</body>
+</html>
